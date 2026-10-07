@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevOps Resume Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DevOps Resume Project</h1>
+    <p class="subtitle">Git &rarr; Docker &rarr; Jenkins &rarr; AWS, fully automated</p>
+  </header>
+
+  <main>
+    <section class="pipeline">
+      <div class="stage">Git Push</div>
+      <div class="arrow">&rarr;</div>
+      <div class="stage">Jenkins CI/CD</div>
+      <div class="arrow">&rarr;</div>
+      <div class="stage">Docker Hub</div>
+      <div class="arrow">&rarr;</div>
+      <div class="stage">AWS EC2</div>
+    </section>
+
+    <section class="about">
+      <h2>About this project</h2>
+      <p>
+        This site is deployed automatically: a push to <code>main</code> triggers
+        a Jenkins pipeline that builds a Docker image, runs a smoke test, pushes
+        to Docker Hub, and deploys it to an AWS EC2 instance — no manual steps.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by Vyankatesh &middot; <a href="https://github.com/vyankatesh-23">GitHub</a></p>
+  </footer>
+</body>
+</html>
